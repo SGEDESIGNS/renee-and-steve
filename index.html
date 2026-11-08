@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Steve &amp; Renee: 40 Years</title>
+<style>
+  :root { --bg:#0e0e0e; --fg:#d9d9d9; --muted:#d9d9d9; --accent:#d9d9d9; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; background:var(--bg); color:var(--fg);
+    font-family: Georgia, "Times New Roman", serif; }
+  main { min-height:100vh; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; padding:24px 16px; gap:18px; }
+  h1 { font-weight:normal; font-size:clamp(1.4rem, 4.5vw, 2.1rem);
+    margin:0; text-align:center; letter-spacing:.01em; }
+  .frame { width:100%; max-width:900px; background:#000; border-radius:10px;
+    overflow:hidden; box-shadow:0 0 0 1px #262626; }
+  video { display:block; width:100%; height:auto; max-height:75vh; background:#000; }
+  a.btn { display:inline-block; margin-top:4px; padding:12px 22px;
+    border:1px solid #3a3a3a; border-radius:999px; color:#d9d9d9;
+    text-decoration:none; font-size:1rem; font-family:system-ui, sans-serif;
+    transition:color .2s ease; }
+  a.btn:hover, a.btn:focus { color:#e8872b; }
+  a.dl { color:var(--muted); font-size:.85rem; font-family:system-ui, sans-serif; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Steve &amp; Renee: 40 Years</h1>
+  <div class="frame">
+    <video controls playsinline preload="metadata">
+      <source src="video.mp4" type="video/mp4">
+      Your browser can’t play this video. <a href="video.mp4">Download it here.</a>
+    </video>
+  </div>
+  <a class="btn" href="https://www.gofundme.com/f/renee-and-steve">Visit our GoFundMe page</a>
+  <a class="dl" href="video.mp4" download>Download the video</a>
+</main>
+</body>
+</html>
